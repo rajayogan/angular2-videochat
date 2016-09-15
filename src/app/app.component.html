@@ -1,3 +1,5 @@
-<h1>
-  {{title}}
-</h1>
+<h1>My id - {{mypeerid}}</h1>
+<input type="text" [(ngModel)]="anotherid">
+<button (click)="connect()">Connect</button>
+<button (click)="videoconnect()">VideoChat</button>
+<video #myvideo></video>
